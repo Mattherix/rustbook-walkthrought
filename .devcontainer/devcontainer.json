@@ -42,8 +42,8 @@
 	
 	// For podman user please read https://opensource.com/article/21/7/vs-code-remote-containers-podman
 	// Mount the workspace 
-	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,Z",
-	"workspaceFolder": "/workspace",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/rustbook-walkthrought,type=bind,Z",
+	"workspaceFolder": "/rustbook-walkthrought",
 
 	// Use Discord RPC, thanks https://carlosbecker.com/posts/discord-rpc-ssh/
 	"mounts": ["source=/run/user/1000/discord-ipc-0,target=/var/run/discord-ipc-0,type=bind,Z"],
