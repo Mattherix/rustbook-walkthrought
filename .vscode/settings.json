@@ -1,6 +1,7 @@
 {
   "conventionalCommits.scopes": [
     "devcontainer",
-    "chapter 1"
+    "chapter 1",
+    "chapter 2"
   ]
 }
