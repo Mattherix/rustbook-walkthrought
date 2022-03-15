@@ -55,4 +55,6 @@ fn main() {
         // Not a + b; else it became a statement from expression
         a + b
     }
+    // Comments
+    //! Documentation comment (read chapter 14)
 }
