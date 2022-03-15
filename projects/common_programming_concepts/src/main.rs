@@ -49,4 +49,10 @@ fn main() {
     // Or with the index
     println!("{}", months[3]);
     // Or use iterator (chapter 13) most common in the rust world
+
+    // Functions
+    fn sum(a: i32, b: i32) -> i32 {
+        // Not a + b; else it became a statement from expression
+        a + b
+    }
 }
