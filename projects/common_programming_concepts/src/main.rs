@@ -39,11 +39,11 @@ fn main() {
     println!("x={}, y={}, z ={} or {} {} {}", x, y, z, tup.0, tup.1, tup.2);
 
     // Array, static multiple type
-    let a = [1, 2, 3, 4, 5];
+    let list = [1, 2, 3, 4, 5];
     let months: [&str; 12] = ["January", "February", "March", "April", "May", "June", "July",
         "August", "September", "October", "November", "December"];
     // Use using a for loop
-    for num in a {
+    for num in list {
         println!("{num}");
     }
     // Or with the index
@@ -55,6 +55,42 @@ fn main() {
         // Not a + b; else it became a statement from expression
         a + b
     }
+    println!("{a} + {b} = {}", sum(a, b));
     // Comments
-    //! Documentation comment (read chapter 14)
+    //\! Documentation comment (read chapter 14)
+    // The are check at compile time,
+    // it won't compile if they are misplaced
+
+    // Controls flow
+    // If else
+    let number = 3;
+    if number > 5 {
+        println!("number is over 5");
+    } else {
+        println!("number is under 5");
+    }
+
+    let n = if number < 6 { 7 } else { 3 };
+    println!("n is {n}");
+
+    // Return a value from an infinite loop (for operation that might panic!)
+    let mut counter = 0;
+    let result = loop {
+        counter += 1;
+        if counter == 10 {
+            break counter * 2;
+        }
+    };
+    println!("The result is {}", result);
+
+    // While loop
+    while counter != 0 {
+        counter -= 1;
+    }
+
+    // For loop
+    for countdown in (1..4).rev() {
+        println!("{}", countdown);
+    }
+    println!("Launch !!");
 }
