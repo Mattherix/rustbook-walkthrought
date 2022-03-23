@@ -5,9 +5,11 @@
       <sourceFolder url="file://$MODULE_DIR$/projects/common_programming_concepts/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/projects/guessing_game/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/projects/hello_cargo/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/projects/common_programming_concepts_exercices/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/projects/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/projects/common_programming_concepts/target" />
       <excludeFolder url="file://$MODULE_DIR$/projects/hello_cargo/target" />
+      <excludeFolder url="file://$MODULE_DIR$/projects/common_programming_concepts_exercices/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
